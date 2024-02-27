@@ -15,5 +15,13 @@ public class BukuMain08 {
         Buku08 bk2 = new Buku08("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku08 bkCindy = new Buku08("Matematika Cindy", "Cindy", 90, 50, 54000);
+        bkCindy.tampilInformasi();
+        bkCindy.terjual(10);
+        System.out.println("Harga total : " + bkCindy.hitungHargaTotal());
+        System.out.println("Harga diskon : " + bkCindy.hitungDiskon());
+        System.out.println("Harga bayar : " + bkCindy.hitungHargaBayar());
+    
     }
 }

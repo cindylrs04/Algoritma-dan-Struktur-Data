@@ -8,7 +8,13 @@
 <hr>
 <b>Percobaan 1</b>
 <p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan1.png">
+</p>
 <p>Hasil program :</p>
+<p align="center">
+    <img src="Gambar/HasilPercobaan1.png">
+</p>
 <p>Pertanyaan</p>
 <p>1. Sebutkan dua karakteristik class atau object!</p>
 <p>jawab : class merupakan konsep suatu objek yang bersifat umum, sedangkan objek merupakan implementasi dari class tersebut yang bersifat spesifik</p>
@@ -26,7 +32,13 @@ Buku? Sebutkan apa saja atributnya!</p>
 <hr>
 <b>Percobaan 2</b>
 <p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan2.png">
+</p>
 <p>Hasil program :</p>
+<p align="center">
+    <img src="Gambar/HasilPercobaan2.png">
+</p>
 <p>Pertanyaan</p>
 <p>1. Pada class BukuMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?</p>
 <p> jawab : terletak pada baris ke 3 yaitu Buku15 bk1 = new Buku08();. objek yang dihasilkan adalah bk1</p>
@@ -37,7 +49,14 @@ Buku? Sebutkan apa saja atributnya!</p>
 <hr>
 <b>Percobaan 3</b>
 <p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan3.png">
+    <img src="Gambar/KodePercobaan3_2.png">
+</p>
 <p>Hasil program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan3.png">
+</p>
 <p>Pertanyaan</p>
 <p>1. Pada class Buku di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!</p>
 <p>jawab : pada baris ke 10 yaitu  public Buku08(String jud, String pg, int hal, int stok, int har) {}</p>
@@ -50,5 +69,11 @@ Buku? Sebutkan apa saja atributnya!</p>
 <p>5. Buat object baru dengan nama buku menggunakan konstruktor berparameter dari class Buku!</p>
 <p>jawab : Buku15 bkInnama = new Buku15("Biografi Innama Maesa", "Innama Maesa", 100, 50, 73000);
 dan jika ingin menampilkan objek tersebut bisa dipanggil dengan menggunakan bkInnama.tampilInformasi();</p>
-
+<b>Latihan</b>
+<p>1. Membuat method baru pada class Buku</p>
+<p>Kode Program : </p>
+<p>Hasil Program : </p>
+<p>1. Membuat method baru pada class Buku</p>
+<p>Kode Program : </p>
+<p>Hasil Program : </p>
 
