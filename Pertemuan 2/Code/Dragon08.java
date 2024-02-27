@@ -1,5 +1,5 @@
 public class Dragon08 {
-    int x = 0, y = 0, width = 15, height = 15;
+    int x = 0, y = 0, width = 20, height = 20;
 
     void moveLeft() {
         x--;
