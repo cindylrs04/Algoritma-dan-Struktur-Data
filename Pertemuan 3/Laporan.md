@@ -104,4 +104,14 @@ hitungLuas() dan hitungKeliling().</p>
 <hr>
 <b>Latihan</b>
 <p>1. Menghitung Luas permukaan dan Volumen bangun ruang</p>
+<p>a. Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan
+luas permukaan dan volume dari tiap jenis bangun ruang tersebut.</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodeLatihan_Kerucut.png">
+<p>b. Pada kerucut, inputan untuk atribut hanya jari-jari dan sisi miring</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodeLatihan_Kerucut.png">
+
 
