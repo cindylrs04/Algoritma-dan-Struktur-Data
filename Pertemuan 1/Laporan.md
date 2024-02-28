@@ -38,3 +38,19 @@
 <p>Hasil program :</p>
 <p align="center">
     <img src="Gambar/HasilFungsi.png">
+<hr>
+<b>Tugas 1</b>
+<p>Kode Program :</p>
+<p align="center">
+    <img src="Gambar/KodeTugas1.png">
+<p>Hasil program :</p>
+<p align="center">
+    <img src="Gambar/HasilTugas1.png">
+<hr>
+<b>Tugas 2</b>
+<p>Kode Program :</p>
+<p align="center">
+    <img src="Gambar/KodeTugas2.png">
+<p>Hasil program :</p>
+<p align="center">
+    <img src="Gambar/HasilTugas2.png">
