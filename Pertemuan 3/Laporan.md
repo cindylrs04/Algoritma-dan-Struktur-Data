@@ -112,6 +112,26 @@ luas permukaan dan volume dari tiap jenis bangun ruang tersebut.</p>
 <p>b. Pada kerucut, inputan untuk atribut hanya jari-jari dan sisi miring</p>
 <p>jawab : </p>
 <p align="center">
-    <img src="Gambar/KodeLatihan_Kerucut.png">
-
-
+    <img src="Gambar/KodeLatihan_.png">
+<p>c. Pada limas segi empat sama sisi, inputan untuk atribut hanya panjang sisi alas dan
+tinggi limas</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodeLatihan_.png">
+<p>d. Pada bola, inpuntan untuk atribut hanya jari-jari</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodeLatihan_.png">
+<p>2. Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama,
+nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua informasi
+tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika
+dimisalkan terdapat 3 data mahasiswa yang tersedia.</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodeLatihan_.png">
+<p>3. Modifikasi program Latihan no.2 di atas, sehingga bisa digunakan untuk menghitung rata-rata IPK,
+serta menampilkan data mahasiswa dengan IPK terbesar! (gunakan method untuk masing-masing
+proses tersebut)</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodeLatihan_.png">
