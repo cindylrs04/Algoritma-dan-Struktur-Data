@@ -103,3 +103,5 @@ hitungLuas() dan hitungKeliling().</p>
     <img src="Gambar/Percobaan3No5.png">
 <hr>
 <b>Latihan</b>
+<p>1. Menghitung Luas permukaan dan Volumen bangun ruang</p>
+
