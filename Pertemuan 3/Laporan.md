@@ -37,8 +37,30 @@ konstruktur pada baris program berikut :</p>
 <hr>
 <b>Percobaan 2</b>
 <p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan2_ModifikasiArrayObjects.png">
 <p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/hasilPercobaan2_ModifikasiArrayObjects.png">
 <p>Pertanyaan</p>
+<p>1. Apakah array of object dapat diimplementasikan pada array 2 Dimensi?</p>
+<p>jawab : iya</p>
+<p>2. Jika jawaban soal no satu iya, berikan contohnya! Jika tidak, jelaskan!</p>
+<p>jawab : nama dan umur yang dipisahkan dengan baris</p>
+<p>3. Jika diketahui terdapat class Persegi yang memiliki atribut sisi bertipe integer, maka kode
+dibawah ini akan memunculkan error saat dijalankan. Mengapa?</p>
+<p>Persegi[] pgArray = new Persegi[100];</p>
+<p>pgArray[5].sisi = 20;</p>
+<p>jawab : karena belum di instansiasi objeknya</p>
+<p>4. Modifikasi kode program pada praktikum 3.3 agar length array menjadi inputan dengan Scanner!</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/KodePertanyaan4_ModifikasiArrayObjects.png">
+    <img src="Gambar/hasilPertanyaan4_ModifikasiArrayObjects.png">
+<p>5. Apakah boleh Jika terjadi duplikasi instansiasi array of objek, misalkan saja instansiasi dilakukan
+pada ppArray[i] sekaligus ppArray[0]?Jelaskan !</p>
+<p>jawab :boleh, tapi nilainya akan tertumpuk</p>
+
 <hr>
 <b>Percobaan 3</b>
 <p>Kode program :</p>
