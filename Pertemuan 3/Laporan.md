@@ -60,9 +60,21 @@ dibawah ini akan memunculkan error saat dijalankan. Mengapa?</p>
 <p>5. Apakah boleh Jika terjadi duplikasi instansiasi array of objek, misalkan saja instansiasi dilakukan
 pada ppArray[i] sekaligus ppArray[0]?Jelaskan !</p>
 <p>jawab :boleh, tapi nilainya akan tertumpuk</p>
-
 <hr>
 <b>Percobaan 3</b>
 <p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan3_ArrayBalok.png">
 <p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/hasilPercobaan3_ArrayBalok.png">
 <p>Pertanyaan</p>
+<p>1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!</p>
+<p>jawab : bisa, contohnya konstruktor yang berparameter dan yang tidak berparameter</p>
+<p>Jika diketahui terdapat class Segitiga seperti berikut ini:</p>
+<p>public class Segitiga</p>
+<p>public int alas;</p>
+<p>public int tinggi;</p>
+<p>Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
+yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.</p>
+<p>jawab : </p>
