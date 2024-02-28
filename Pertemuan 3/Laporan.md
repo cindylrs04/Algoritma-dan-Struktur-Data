@@ -71,10 +71,35 @@ pada ppArray[i] sekaligus ppArray[0]?Jelaskan !</p>
 <p>Pertanyaan</p>
 <p>1. Dapatkah konstruktor berjumlah lebih dalam satu kelas? Jelaskan dengan contoh!</p>
 <p>jawab : bisa, contohnya konstruktor yang berparameter dan yang tidak berparameter</p>
-<p>Jika diketahui terdapat class Segitiga seperti berikut ini:</p>
+<p>2. Jika diketahui terdapat class Segitiga seperti berikut ini:</p>
 <p>public class Segitiga</p>
 <p>public int alas;</p>
 <p>public int tinggi;</p>
 <p>Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t
 yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.</p>
 <p>jawab : </p>
+<p align="center">
+    <img src="Gambar/Percobaan3No2.png">
+    <img src="Gambar/Percobaan3No2_2.png">
+<p>3. Tambahkan method hitungLuas() dan hitungKeliling() pada class Segitiga
+tersebut. Asumsi segitiga adalah segitiga siku-siku. (Hint: Anda dapat menggunakan bantuan
+library Math pada Java untuk mengkalkulasi sisi miring)</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/Percobaan3No3.png">
+<p>4. Pada fungsi main, buat array Segitiga sgArray yang berisi 4 elemen, isikan masing-masing
+atributnya sebagai berikut:</p>
+<p>sgArray ke-0 alas: 10, tinggi: 4</p>
+<p>sgArray ke-1 alas: 20, tinggi: 10</p>
+<p>sgArray ke-2 alas: 15, tinggi: 6</p>
+<p>sgArray ke-3 alas: 25, tinggi: 10</p>
+<p>jawab :</p>
+<p align="center">
+    <img src="Gambar/Percobaan3No4.png">
+<p>5. Kemudian menggunakan looping, cetak luas dan keliling dengan cara memanggil method
+hitungLuas() dan hitungKeliling().</p>
+<p>jawab : </p>
+<p align="center">
+    <img src="Gambar/Percobaan3No5.png">
+<hr>
+<b>Latihan</b>
