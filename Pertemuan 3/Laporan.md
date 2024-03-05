@@ -116,10 +116,10 @@ hitungLuas() dan hitungKeliling().</p>
 <p>jawab : </p>
 <p align="center">
     <img src="Gambar/KodeLatihan_Bola.png">
-<p>d. Pada bola, inpuntan untuk atribut hanya jari-jari</p>
+<p>Kode class main</p>
 <p>jawab : </p>
 <p align="center">
-    <img src="Gambar/KodeLatihan_.png">
+    <img src="Gambar/Kode BangunRuangMain.png">
 <p>2. Sebuah kampus membutuhkan program untuk menampilkan informasi mahasiswa berupa nama,
 nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua informasi
 tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika
