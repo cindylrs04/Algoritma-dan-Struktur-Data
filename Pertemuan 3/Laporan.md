@@ -125,11 +125,20 @@ nim, jenis kelamin dan juga IPK mahasiswa. Program dapat menerima input semua in
 tersebut, kemudian menampilkanya kembali ke user. Implementasikan program tersebut jika
 dimisalkan terdapat 3 data mahasiswa yang tersedia.</p>
 <p>jawab : </p>
+<p>Kode program :</p>
 <p align="center">
-    <img src="Gambar/KodeLatihan_.png">
+    <img src="Gambar/Kode InformasiMahasiswa.png">
+    <img src="Gambar/Kode InformasiMahasiswaMain.png">
+<p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/Hasil InformasiMahasiswaNo2.png">
 <p>3. Modifikasi program Latihan no.2 di atas, sehingga bisa digunakan untuk menghitung rata-rata IPK,
 serta menampilkan data mahasiswa dengan IPK terbesar! (gunakan method untuk masing-masing
 proses tersebut)</p>
 <p>jawab : </p>
 <p align="center">
-    <img src="Gambar/KodeLatihan_.png">
+    <img src="Gambar/Kode InformasiMahasiswa_Modifikasi.png">
+    <img src="Gambar/Kode InformasiMahasiswaMain_Modifikasi.png">
+<p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/Hasil InformasiMahasiswaNo3.png">
