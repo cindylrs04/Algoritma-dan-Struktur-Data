@@ -19,12 +19,12 @@
 <p>Pertanyaan</p>
 <p>1. Pada base line Algoritma Divide Conquer untuk melakukan pencarian nilai faktorial, jelaskan
 perbedaan bagian kode pada penggunaan if dan else!</p>
-<p>jawab :</p>
+<p>jawab : if menentukan kondisi batas dan menghentikan rekursi sedangkan else memecah masalah dan melanjutkan rekursi</p>
 <p>2. Apakah memungkinkan perulangan pada method faktorialBF() dirubah selain menggunakan
 for?Buktikan!</p>
-<p>jawab :</p>
+<p>jawab : perulangan dapat di gantikan dengan menggunakan perluangan while</p>
 <p>3. Jelaskan perbedaan antara fakto *= i; dan int fakto = n * faktorialDC(n-1); !</p>
-<p>jawab :</p>
+<p>jawab : Pada fakto *= i dilakukan operasi assignment dalam iterasi namun pada fakto = n * faktorialDC(n-1) dilakukan proses rekursif</p>
 <hr>
 <b>Percobaan 2</b>
 <p>Kode program :</p>
@@ -38,9 +38,15 @@ for?Buktikan!</p>
 </p>
 <p>Pertanyaan</p>
 <p>1. Jelaskan mengenai perbedaan 2 method yang dibuat yaitu PangkatBF() dan PangkatDC()!</p>
-<p>jawab :</p>
+<p>jawab : method PangkatBF merupakan perhitungan pangkat yang menggunakan algoritma Brute Force dengan menerapkan perhitungan per indeks pada perulangan. pada method PangkatDC menggunakan algortima Divide Conquer yang membagi tiap bagian pangkat kemudian di hitung per bagian kemudian di combine</p>
 <p>2. Apakah tahap combine sudah termasuk dalam kode tersebut?Tunjukkan!</p>
-<p>jawab :</p>
+<p>jawab : Terdapat dalam method PangkatDC di bagian rekursif berikut :
+
+ if(n%2==1) { // bilangan ganjil 
+    return (pangkatDC(a,n/2)*pangkatDC(a,n/2)*a);
+    } else {
+        return (pangkatDC(a,n/2)*pangkatDC(a,n/2));
+    }</p>
 <p>3. Modifikasi kode program tersebut, anggap proses pengisian atribut dilakukan dengan
 konstruktor.</p>
 <p>jawab :</p>
@@ -60,9 +66,9 @@ switch-case!</p>
 </p>
 <p>Pertanyaan</p>
 <p>1. Mengapa terdapat formulasi return value berikut?Jelaskan!</p>
-<p>jawab :</p>
+<p>jawab : untuk menggabungkan hasil penjumlahan sisi kiri (lsum), sisi kanan (rsum), dan bagian tengah (arr[mid])</p>
 <p>2. Kenapa dibutuhkan variable mid pada method TotalDC()?</p>
-<p>jawab :</p>
+<p>jawab : untuk membagi array menjadi dua bagian sama panjang</p>
 <p>3. Program perhitungan keuntungan suatu perusahaan ini hanya untuk satu perusahaan saja.
 Bagaimana cara menghitung sekaligus keuntungan beberapa bulan untuk beberapa
 perusahaan.(Setiap perusahaan bisa saja memiliki jumlah bulan berbeda-beda)? Buktikan
