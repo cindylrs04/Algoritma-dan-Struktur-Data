@@ -29,4 +29,19 @@ public class DaftarMahasiswaBerprestasi08 {
             }
         }
     }
+
+    void selectionSort(){
+        for (int i = 0; i < ListMhs.length-1; i++) {
+            int idxMin = i;
+            for (int j = i+1; j < ListMhs.length; j++) {
+                if (ListMhs[j].ipk < ListMhs[idxMin].ipk) {
+                    idxMin = j;
+                }
+            }
+
+            Mahasiswa08 tmp = ListMhs[idxMin];
+            ListMhs[idxMin] = ListMhs[i];
+            ListMhs[i] = tmp;
+        }
+    }
 }
