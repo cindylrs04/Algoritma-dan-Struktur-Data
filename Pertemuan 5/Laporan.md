@@ -74,4 +74,21 @@ Bagaimana cara menghitung sekaligus keuntungan beberapa bulan untuk beberapa
 perusahaan.(Setiap perusahaan bisa saja memiliki jumlah bulan berbeda-beda)? Buktikan
 dengan program!</p>
 <p>jawab :</p>
+<p align="center">
+    <img src="Gambar/KodeSumModifikasi.png">
+</p>
 <hr>
+<b>Latihan</b>
+<p>1. Sebuah showroom memiliki daftar mobil dengan data sesuai tabel di bawah ini</p>
+<p align="center">
+    <img src="Gambar/SoallatihanJobsheet5.png">
+</p>
+<p>Tentukan:</p>
+<p>a. top_acceleration tertinggi menggunakan Divide and Conquer!</p>
+<p>b. top_acceleration terendah menggunakan Divide and Conquer!</p>
+<p>c. Rata-rata top_power dari seluruh mobil menggunakan Brute Force!</p>
+<p>jawab :</p>
+<p align="center">
+    <img src="Gambar/KodeLatihanMobil.png">
+    <img src="Gambar/KodeLatihanMobilMain.png">
+</p>
