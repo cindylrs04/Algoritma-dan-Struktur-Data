@@ -41,5 +41,11 @@ public class BukuMain08 {
         int posisi = data.FindSeqSearch(cari);
         data.Tampilposisi(cari, posisi);
         data.TampilData(cari, posisi);
+
+        System.out.println("=================================");
+        System.out.println("menggunakan binary Search");
+        posisi = data.FindBinarySearch(cari, 0, jumBuku - 1);
+        data.Tampilposisi(cari, posisi);
+        data.TampilData(cari, posisi);
     }    
 }

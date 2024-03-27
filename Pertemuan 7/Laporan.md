@@ -33,3 +33,25 @@ tersebut pada class BukuMain seperti gambar berikut :</p>
 <p align="center">
     <img src="Gambar/SoalNo3Percobaan1.png">
 </p>
+<hr>
+<b>Percobaan 2</b>
+<p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan2.png">
+</p>
+<p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/HasilPercobaan2.png">
+</p>
+<p>Pertanyaan</p>
+<p>1. Tunjukkan pada kode program yang mana proses divide dijalankan!</p>
+<p>jawab :</p>
+<p>2. Tunjukkan pada kode program yang mana proses conquer dijalankan!</p>
+<p>jawab :</p>
+<p>4. Jika data Kode Buku yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa
+demikian! Tunjukkan hasil screenshoot untuk bukti dengan kode Buku yang acak. Jelaskan
+Mengapa hal tersebut bisa terjadi?</p>
+<p>3. Jika Kode Buku yang dimasukkan dari Kode Buku terbesar ke terkecil (missal : 20215, 20214,
+20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search?
+Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!</p>
+<p>jawab :</p>
