@@ -26,13 +26,15 @@
 <p>jawab : untuk mengurutkan objek berdasarkan nilai ipk dari terbesar sampai terkecil dengan membandingkan antara objek di suatu index dengan objek di index sebelumnya.</p>
 <p>3. Perhatikan perulangan di dalam bubbleSort() di bawah ini:</p>
 <p>a. Apakah perbedaan antara kegunaan perulangan i dan perulangan j?</p>
-<p>jawab : </p>
+<p>jawab : Perulangan i: Digunakan untuk mengiterasi setiap elemen dalam array listMhs. Perulangan ini memastikan bahwa semua elemen dibandingkan dengan elemen di sebelahnya. Perulangan j: Digunakan untuk mengontrol berapa kali perbandingan dan penukaran elemen dilakukan. Perulangan ini berhenti ketika tidak ada lagi elemen yang perlu ditukar, yaitu ketika array sudah terurut.</p>
 <p>b. Mengapa syarat dari perulangan i adalah i < listMhs.length-1 ? </p>
-<p>jawab :</p>
+<p>jawab :Syarat ini memastikan bahwa perulangan i tidak mengakses elemen di luar array. Elemen terakhir dalam array memiliki indeks listMhs.length-1, sehingga perulangan harus berhenti sebelum mencapai indeks tersebut.</p>
 <p>c. Mengapa syarat dari perulangan j adalah j < listMhs.length-i ?</p>
-<p>jawab :</p>
+<p>jawab : Syarat ini memastikan bahwa perbandingan dan penukaran elemen hanya dilakukan pada elemen-elemen yang belum terurut. Elemen-elemen yang berada di akhir array sudah terurut setelah perulangan sebelumnya, sehingga tidak perlu dibandingkan lagi.</p>
 <p>d. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh?</p>
-<p>jawab :</p>
+<p>jawab : Perulangan i akan berlangsung sebanyak 50 - 1 = 49 kali.
+
+Jumlah tahap bubble sort tidak dapat ditentukan secara pasti. Tahap bubble sort akan berhenti ketika array sudah terurut. Dalam kasus terburuk, bubble sort membutuhkan listMhs.length - 1 tahap untuk mengurutkan seluruh elemen. Dalam kasus ini, bubble sort membutuhkan 49 tahap untuk mengurutkan seluruh elemen.</p>
 <hr>
 <b>Percobaan 2</b>
 <p>Kode program :</p>
@@ -63,6 +65,9 @@
 <p>Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting
 dengan cara descending.</p>
 <p>jawab :</p>
+<p align="center">
+    <img src="Gambar/JawabanPercobaan3.png">
+</p>
 <hr>
 <b>Latihan</b>
 <p>Sebuah platform travel yang menyediakan layanan pemesanan kebutuhan travelling sedang

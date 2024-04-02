@@ -56,4 +56,16 @@ public class DaftarMahasiswaBerprestasi08 {
             ListMhs[j] = temp;
         }
     }
+
+    void insertionSortDescending() {
+        for (int i = 1; i < ListMhs.length; i++) {
+            Mahasiswa08 temp = ListMhs[i];
+            int j = i;
+            while (j > 0 && ListMhs[j - 1].ipk < temp.ipk) {
+                ListMhs[j] = ListMhs[j - 1];
+                j--;
+            }
+            ListMhs[j] = temp;
+        }
+    }
 }
