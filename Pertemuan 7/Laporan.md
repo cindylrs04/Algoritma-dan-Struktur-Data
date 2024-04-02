@@ -22,7 +22,7 @@
 </p>
 <p>Pertanyaan</p>
 <p>1. Jelaskan fungsi break yang ada pada method FindSeqSearch!</p>
-<p>jawab : </p>
+<p>jawab : untuk menghentikan perulangan ketika telah menemukan nilai cari pada kumpulan atribut kode buku di array of object</p>
 <p>2. Jika Data Kode Buku yang dimasukkan tidak terurut dari kecil ke besar. Apakah program masih
 dapat berjalan? Apakah hasil yang dikeluarkan benar? Tunjukkan hasil screenshoot untuk bukti
 dengan kode Buku yang acak. Jelaskan Mengapa hal tersebut bisa terjadi?</p>
@@ -33,6 +33,7 @@ tersebut pada class BukuMain seperti gambar berikut :</p>
 <p align="center">
     <img src="Gambar/SoalNo3Percobaan1.png">
 </p>
+<p>jawab :<p>
 <hr>
 <b>Percobaan 2</b>
 <p>Kode program :</p>
@@ -45,9 +46,9 @@ tersebut pada class BukuMain seperti gambar berikut :</p>
 </p>
 <p>Pertanyaan</p>
 <p>1. Tunjukkan pada kode program yang mana proses divide dijalankan!</p>
-<p>jawab :</p>
+<p>jawab : if(right >= left) {mid = (left + right) / 2}</p>
 <p>2. Tunjukkan pada kode program yang mana proses conquer dijalankan!</p>
-<p>jawab :</p>
+<p>jawab : if (cari == listBk[mid].kodeBuku) { return (mid); } else if (listBk[mid].kodeBuku > cari) { return FindBinarySearch(cari, left, mid); } else { return FindBinarySearch(cari, mid, right); }</p>
 <p>4. Jika data Kode Buku yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa
 demikian! Tunjukkan hasil screenshoot untuk bukti dengan kode Buku yang acak. Jelaskan
 Mengapa hal tersebut bisa terjadi?</p>
@@ -55,3 +56,28 @@ Mengapa hal tersebut bisa terjadi?</p>
 20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search?
 Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!</p>
 <p>jawab :</p>
+<hr>
+<b>Percobaan 3</b>
+<p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePercobaan3Class.png">
+    <img src="Gambar/KodePercobaan3Main.png">
+</p>
+<p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/HasilPercobaan3.png">
+</p>
+<hr>
+<b>Latihan</b>
+<p>1. Modifikasi percobaan searching diatas dengan ketentuan berikut ini</p>
+<p>- Ubah tipe data dari kode Buku yang awalnya int menjadi String</p>
+<p>- Tambahkan method untuk pencarian kode Buku (bertipe data String) dengan menggunakan
+sequential search dan binary search.</p>
+<p>2. Modifikasi percobaan searching diatas dengan ketentuan berikut ini</p>
+<p>- Tambahkan method pencarian judul buku menggunakan sequential search dan binary
+search. Sebelum dilakukan searching dengan binary search data harus dilakukan pengurutan
+dengan menggunakan algoritma Sorting (bebas pilih algoritma sorting apapun)! Sehingga
+ketika input data acak, maka algoritma searching akan tetap berjalan</p>
+<p>- Buat aturan untuk mendeteksi hasil pencarian judul buku yang lebih dari 1 hasil dalam
+bentuk kalimat peringatan! Pastikan algoritma yang diterapkan sesuai dengan kasus yang
+diberikan!</p>

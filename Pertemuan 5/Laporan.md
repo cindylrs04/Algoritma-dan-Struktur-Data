@@ -50,9 +50,16 @@ for?Buktikan!</p>
 <p>3. Modifikasi kode program tersebut, anggap proses pengisian atribut dilakukan dengan
 konstruktor.</p>
 <p>jawab :</p>
+<p align="center">
+    <img src="Gambar/JawabanNo3Percobaan2.png">
+    <img src="Gambar/JawabanNo3_2_percobaan2.png">
+</p>
 <p>4. Tambahkan menu agar salah satu method yang terpilih saja yang akan dijalankan menggunakan
 switch-case!</p>
 <p>jawab :</p>
+<p align="center">
+    <img src="Gambar/JawabanNo4Percobaan2.png">
+</p>
 <hr>
 <b>Percobaan 3</b>
 <p>Kode program :</p>

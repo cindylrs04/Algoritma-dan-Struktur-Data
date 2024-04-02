@@ -1,5 +1,10 @@
 public class Pangkat08 {
     public int nilai,pangkat;
+
+    public Pangkat08(int nilai, int pangkat) {
+        this.nilai = nilai;
+        this.pangkat = pangkat;
+    }
     
     int pangkatBF(int a, int n){
         int hasil = 1;
