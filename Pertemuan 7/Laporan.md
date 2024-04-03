@@ -26,7 +26,7 @@
 <p>2. Jika Data Kode Buku yang dimasukkan tidak terurut dari kecil ke besar. Apakah program masih
 dapat berjalan? Apakah hasil yang dikeluarkan benar? Tunjukkan hasil screenshoot untuk bukti
 dengan kode Buku yang acak. Jelaskan Mengapa hal tersebut bisa terjadi?</p>
-<p>jawab :</p>
+<p>jawab : program yang diberikan akan tetap berjalan meskipun data kode buku yang dimasukkan tidak terurut dari kecil ke besar</p>
 <p>3. Buat method baru dengan nama FindBuku menggunakan konsep sequential search dengan tipe
 method dari FindBuku adalah BukuNoAbsen. Sehingga Anda bisa memanggil method
 tersebut pada class BukuMain seperti gambar berikut :</p>
@@ -52,6 +52,7 @@ tersebut pada class BukuMain seperti gambar berikut :</p>
 <p>4. Jika data Kode Buku yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa
 demikian! Tunjukkan hasil screenshoot untuk bukti dengan kode Buku yang acak. Jelaskan
 Mengapa hal tersebut bisa terjadi?</p>
+<p>jawab : Program masih akan berjalan meskipun data Kode Buku yang dimasukkan tidak urut. karena pencarian dilakukan baik dengan pencarian berurutan (sequential search) maupun pencarian biner (binary search)</p>
 <p>3. Jika Kode Buku yang dimasukkan dari Kode Buku terbesar ke terkecil (missal : 20215, 20214,
 20212, 20211, 20210) dan elemen yang dicari adalah 20210. Bagaimana hasil dari binary search?
 Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai!</p>
@@ -73,6 +74,7 @@ Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar has
 <p>- Ubah tipe data dari kode Buku yang awalnya int menjadi String</p>
 <p>- Tambahkan method untuk pencarian kode Buku (bertipe data String) dengan menggunakan
 sequential search dan binary search.</p>
+<p>jawab : </p>
 <p>2. Modifikasi percobaan searching diatas dengan ketentuan berikut ini</p>
 <p>- Tambahkan method pencarian judul buku menggunakan sequential search dan binary
 search. Sebelum dilakukan searching dengan binary search data harus dilakukan pengurutan
@@ -81,3 +83,4 @@ ketika input data acak, maka algoritma searching akan tetap berjalan</p>
 <p>- Buat aturan untuk mendeteksi hasil pencarian judul buku yang lebih dari 1 hasil dalam
 bentuk kalimat peringatan! Pastikan algoritma yang diterapkan sesuai dengan kasus yang
 diberikan!</p>
+<p>jawab : </p>
