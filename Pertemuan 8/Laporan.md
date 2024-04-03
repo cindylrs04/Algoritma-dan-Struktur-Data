@@ -35,10 +35,13 @@ barang teratas, serta dapat secara bebas menentukan kapasitas gudang!</p>
 <b>Percobaan 2</b>
 <p>Kode program :</p>
 <p align="center">
-    <img src="Gambar/KodePercobaan2.png">
+    <img src="Gambar/KodeStackKonversiPercobaan2.png">
 </p>
 <p>Hasil Program :</p>
 <p align="center">
     <img src="Gambar/HasilPercobaan2.png">
 </p>
 <p>Pertanyaan</p>
+<p>1. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi while (kode != 0),
+bagaimana hasilnya? Jelaskan alasannya!</p>
+<p>2. Jelaskan alur kerja dari method konversiDesimalKeBiner!</p>
