@@ -44,4 +44,33 @@ barang teratas, serta dapat secara bebas menentukan kapasitas gudang!</p>
 <p>Pertanyaan</p>
 <p>1. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi while (kode != 0),
 bagaimana hasilnya? Jelaskan alasannya!</p>
+<p>jawab : </p>
 <p>2. Jelaskan alur kerja dari method konversiDesimalKeBiner!</p>
+<p>jawab : </p>
+<hr>
+<b>Percobaan 3</b>
+<p>Kode program :</p>
+<p align="center">
+    <img src="Gambar/KodePostfixPercobaan3.png">
+    <img src="Gambar/KodePostfixMainPercobaan3.png">
+</p>
+<p>Hasil Program :</p>
+<p align="center">
+    <img src="Gambar/HasilPercobaan3.png">
+</p>
+<p>Pertanyaan</p>
+<p>1. Pada method derajat, mengapa return value beberapa case bernilai sama? Apabila return
+value diubah dengan nilai berbeda-beda setiap case-nya, apa yang terjadi?</p>
+<p>jawab : </p>
+<p>2. Jelaskan alur kerja method konversi!</p>
+<p>jawab : </p>
+<p>3. Pada method konversi, apa fungsi dari potongan kode berikut?</p>
+<p> c = Q.chartAt(i)</p>
+<p>jawab : </p>
+<hr>
+<b>Latihan</b>
+<p>Perhatikan dan gunakan kembali kode program pada Percobaan 1. Tambahkan dua method berikut
+pada class Gudang:</p>
+<p>• Method lihatBarangTerbawah digunakan untuk mengecek barang pada tumpukan terbawah</p>
+<p>• Method cariBarang digunakan untuk mencari ada atau tidaknya barang berdasarkan kode
+barangnya atau nama barangnya</p>
