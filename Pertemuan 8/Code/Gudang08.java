@@ -27,6 +27,10 @@ public class Gudang08 {
         }
     }
 
+    public boolean isEmpty() {
+        return top == -1;
+    }
+
     public void tambahBarang(Barang08 brg) {
         if (!cekPenuh()) {
             top++;
@@ -58,6 +62,34 @@ public class Gudang08 {
         } else {
             System.out.println("Tumpukan barang kosong.");
             return null;
+        }
+    }
+
+    public Barang08 lihatBarangTerbawah() {
+        if (isEmpty()) {
+            Barang08 barangTerbawah = tumpukan[0];
+            System.out.println("Barang terbawah : " + barangTerbawah.nama);
+            return barangTerbawah;
+        } else {
+            System.out.println("Tumpukan barang kosong.");
+            return null;
+        }
+    }
+
+    public Barang08 cariBarangKode(int kodeBarang) {
+        for (int i = 0; i <= top; i++) {
+            if (tumpukan[i].kode == kodeBarang) {
+                return tumpukan[i];
+            }
+        }
+        return null;
+    }
+
+    public Barang08 cariBarangNama(String namaBarang) {
+        for (int i = 0; i <= top; i++) {
+            if (tumpukan[i].nama.equals(namaBarang)) {
+                return tumpukan[i];
+            }
         }
     }
 

@@ -6,6 +6,11 @@ public class Utama08 {
     public static void main(String[] args) {
         Gudang08 gudang = new Gudang08(7);
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan kapasitas gudang : ");
+        int kapasitas = scanner.nextInt();
+        scanner.nextLine();
+
         while (true) {
             System.out.println("\nMenu:");
             System.out.println("1. Tambah barang");
@@ -34,11 +39,38 @@ public class Utama08 {
                     break;
 
                 case 3:
-                    gudang.tampilkanBarang();
+                    gudang.lihatBarangTeratas();
                     break;
 
                 case 4:
+                    gudang.lihatBarangTerbawah();
                     break;
+
+                case 5:
+                System.out.print("Masukkan kode barang : ");
+                kode = scanner.nextInt();
+                scanner.nextLine();
+                Barang08 barangDitemukan = gudang.cariBarangKode(kode);
+                if (barangDitemukan != null) {
+                    System.out.println("Barang dengan kode " + kode + "ditemukan : " + barangDitemukan.nama);
+                } else {
+                    System.out.println("Barang dengan kode " + kode + "tidak ditemukan.");
+                }
+                break;
+
+                case 6:
+                System.out.print("Masukkan nama barang : ");
+                nama = scanner.nextLine();
+                barangDitemukan = gudang.cariBarangNama(nama);
+                if (barangDitemukan != null) {
+                    System.out.println("Barang dengan nama " + nama + "ditemukan : " + barangDitemukan.nama);
+                } else {
+                    System.out.println("Barang dengan nama " + nama + "tidak ditemukan.");
+                }
+                break;
+
+                case 7:
+                    gudang.tampilkanBarang();
                 
                 default:
                     System.out.println("Pilihan tidak valid. Silahkan coba lagi");
