@@ -85,12 +85,13 @@ public class Gudang08 {
         return null;
     }
 
-    public Barang08 cariBarangNama(String namaBarang) {
+    public Barang08 CariBarangNama(String namaBarang) {
         for (int i = 0; i <= top; i++) {
             if (tumpukan[i].nama.equals(namaBarang)) {
                 return tumpukan[i];
             }
         }
+        return null;
     }
 
     public void tampilkanBarang() {
