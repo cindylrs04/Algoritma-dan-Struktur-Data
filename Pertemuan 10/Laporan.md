@@ -46,9 +46,10 @@ melainkan int i=front?</p>
 dan hanya menampilkan teks informasi. Lakukan modifikasi program sehingga pada saat terjadi
 queue overflow dan queue underflow, program dihentikan!</p>
 <p>jawab : </p>
-<p>void enqueue(int dt) { if (isFull()) { System.out.println("Queue sudah penuh"); System.exit(1); } else { if (isEmpty()) { front = rear = 0; } else { if (rear == max - 1) { rear = 0; } else { rear++; } } data[rear] = dt; size++; } }</p>
-
-<p>public int dequeue() { int dt = 0; if (isEmpty()) { System.out.println("Queue masih kosong"); System.exit(1); } else { dt = data[front]; size--; if (isEmpty()) { front = rear = -1; } else { if (front == max - 1) { front = 0; } else { front++; } } } return dt; }</p>
+<p align="center">
+    <img src="Gambar/JawabanSoalNo7_1.png">
+    <img src="Gambar/JawabanSoalNo7_2.png">
+</p>
 <hr>
 <b>Praktikum 2</b>
 <p>Kode program :</p>
@@ -73,8 +74,10 @@ Queue yang digunakan untuk mengecek antrian yang berada di posisi belakang! Tamb
 daftar menu 5. Cek Antrian paling belakang pada class QueueMain sehingga method peekRear
 dapat dipanggil!</p>
 <p>jawab :</p>
-<p>void peekRear() { if (!isEmpty()) { System.out.println("Elemen terdepan : " + data[rear].norek + " " + data[rear].nama + " " + data[rear].alamat + " " + data[rear].umur + " " + data[rear].saldo); } else { System.out.println("Queue masih kosong"); } }</p>
-<p>case 5: System.out.println("5. Cek antrian belakang");</p>
+<p align="center">
+    <img src="Gambar/JawabanNo2_1.png">
+    <img src="Gambar/JawabanNo2_2.png">
+</p>
 <hr>
 <b>Tugas</b>
 <p>1. Buatlah program antrian untuk mengilustasikan pesanan disebuah warung. Ketika seorang pembeli akan mengantri, maka dia harus mendaftarkan nama, dan nomor HP seperti yang digambarkan pada Class diagram</p>

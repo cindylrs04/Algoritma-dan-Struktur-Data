@@ -4,7 +4,7 @@ public class SingleLinkedList08 {
     Node08 head, tail;
 
     boolean isEmpty() {
-        return head == null;
+        return head == null; // seharusnya tidak pakai tanda seru 
     }
 
     void print() {
@@ -179,4 +179,4 @@ public class SingleLinkedList08 {
             System.out.println("Linked list masih kosong, tidak dapat dihapus");
         }
     }
-}
+} 

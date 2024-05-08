@@ -76,7 +76,7 @@ public class Queue {
 
     void peekRear() {
         if (!isEmpty()) {
-            System.out.println("Elemen paling belakang : " + data[rear].norek + " " + data[rear].nama + " "
+            System.out.println("Elemen terdepan : " + data[rear].norek + " " + data[rear].nama + " "
                     + data[rear].alamat + " " + data[rear].umur + " " + data[rear].saldo);
         } else {
             System.out.println("Queue masih kosong");
