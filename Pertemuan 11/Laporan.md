@@ -46,10 +46,30 @@
 <p>Kode temp.next = temp.next.next; digunakan untuk menghapus elemen setelah elemen yang ditunjuk oleh temp</p>
 <hr>
 <b>Tugas</b>
-<p>1 Implementasikan ilustrasi Linked List Berikut. Gunakan 4 macam penambahan data yang telah
+<p>1. Implementasikan ilustrasi Linked List Berikut. Gunakan 4 macam penambahan data yang telah
 dipelajari sebelumnya untuk menginputkan data.
 </p>
-<p>2 Buatlah implementasi program antrian layanan unit kemahasiswaan sesuai dengan kondisi yang
+<p>Kode Program</p>
+<p align="center">
+    <img src="Gambar/KodeTugas1.png">
+    <img src="Gambar/KodeTugas1_2.png">
+    <img src="Gambar/KodeTugas1_3.png">
+</p>
+<p>Hasil Program</p>
+<p align="center">
+    <img src="Gambar/HasilTugas1.png">
+</p>
+<p>2. Buatlah implementasi program antrian layanan unit kemahasiswaan sesuai dengan kondisi yang
 ditunjukkan pada soal nomor 1! Ketentuan</p>
 <p>a. Implementasi antrian menggunakan Queue berbasis Linked List!</p>
 <p>b. Program merupakan proyek baru, bukan modifikasi dari soal nomor 1!</p>
+<p>Kode Program</p>
+<p align="center">
+    <img src="Gambar/KodeTugas2.png">
+    <img src="Gambar/KodeTugas2_2.png">
+    <img src="Gambar/KodeTugas2_3.png">
+</p>
+<p>Hasil Program</p>
+<p align="center">
+    <img src="Gambar/HasilTugas2.png">
+</p>
