@@ -15,7 +15,7 @@
 </p>
 <p>Hasil Program :</p>
 <p align="center">
-    <img src="Gambar/HasilPrak1.png">
+    <img src="Gambar/HasilPrak1.png"> 
 </p>
 <p>Pertanyaan</p>
 <p>1. Mengapa hasil compile kode program di baris pertama menghasilkan “Linked List Kosong”?</p>
