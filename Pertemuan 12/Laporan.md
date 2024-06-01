@@ -99,6 +99,10 @@ parameter prev dengan current, dan next dengan null?</p>
 <p>1. Buat program antrian vaksinasi menggunakan queue berbasis double linked list sesuai ilustrasi 
 dan menu di bawah ini! (counter jumlah antrian tersisa di menu cetak(3) dan data orang yang 
 telah divaksinasi di menu Hapus Data(2) harus ada)</p>
+<p align="center">
+    <img src="Gambar/KodeTugas1.png">
+    <img src="Gambar/KodeTugas1_2.png">
+    <img src="Gambar/KodeTugas1_3.png">
 <p>2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked 
 lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara 
 descending. Class Film wajib diimplementasikan dalam soal ini. </p>
