@@ -30,6 +30,26 @@ public class DoubleLinkedList08 {
         return tmp.jarak;
     }
 
+    public void updateJarak(int asal, int tujuan, int jarakBaru) {
+        try {
+            Node08 current = head;
+            while (current != null) {
+                if (current.data == tujuan) {
+                    current.jarak = jarakBaru;
+                    System.out.println(
+                            "Jarak antara Gedung " + (char) ('A' + asal) + " dan Gedung " + (char) ('A' + tujuan)
+                                    + " berhasil diupdate menjadi " + jarakBaru + " meter.");
+                    return;
+                }
+                current = current.next;
+            }
+            System.out.println("Tidak dapat memperbarui jarak: Gedung " + (char) ('A' + asal)
+                    + " tidak terhubung dengan Gedung " + (char) ('A' + tujuan));
+        } catch (Exception e) {
+            System.out.println("Terjadi kesalahan saat memperbarui jarak: " + e.getMessage());
+        }
+    }
+
     public void remove(int index) {
         Node08 current = head;
         while (current != null) {

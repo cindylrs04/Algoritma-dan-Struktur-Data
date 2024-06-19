@@ -38,6 +38,9 @@ suatu node dengan node lainnya, seperti contoh berikut (Anda dapat memanfaatkan 
     <img src="Gambar/SoalNo5.png">
 </p>
 <p>jawab : </p>
+<p align="center">
+    <img src="Gambar/JawabanNo5.png">
+</p>
 <hr>
 <b>Praktikum 2</b>
 <p>Kode program :</p>
@@ -62,6 +65,9 @@ suatu node dengan node lainnya, seperti contoh berikut (Anda dapat memanfaatkan 
 <p>4. Modifikasi kode program sehingga terdapat method untuk menghitung degree, termasuk
 inDegree dan outDegree!</p>
 <p>jawab : </p>
+<p align="center">
+    <img src="Gambar/JawabanNo4.png">
+</p>
 <hr>
 <b>Latihan</b>
 <p>1. Modifikasi kode program pada class GraphMain sehingga terdapat menu program yang bersifat
@@ -72,6 +78,18 @@ dinamis, setidaknya terdiri dari:</p>
 <p>d. Print Graph</p>
 <p>e. Cek Edge</p>
 <p>Pengguna dapat memilih menu program melalui input Scanner</p>
+<p>jawab :</p>
+<p align="center">
+    <img src="Gambar/JawabanNo1.png">
+</p>
 <p>2. Tambahkan method updateJarak pada Percobaan 1 yang digunakan untuk mengubah jarak
 antara dua node asal dan tujuan!</p>
+<p>jawab :</p>
+<p align="center">
+    <img src="Gambar/JawabanNo2.png">
+</p>
 <p>3. Tambahkan method hitungEdge untuk menghitung banyaknya edge yang terdapat di dalam graf!</p>
+<p>jawab :</p>
+<p align="center">
+    <img src="Gambar/JawabanNo3.png">
+</p>
