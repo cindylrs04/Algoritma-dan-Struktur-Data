@@ -116,3 +116,6 @@ telah divaksinasi di menu Hapus Data(2) harus ada)</p>
 <p>2. Buatlah program daftar film yang terdiri dari id, judul dan rating menggunakan double linked 
 lists, bentuk program memiliki fitur pencarian melalui ID Film dan pengurutan Rating secara 
 descending. Class Film wajib diimplementasikan dalam soal ini. </p>
+<p align="center">
+    <img src="Gambar/Tugas2.png">
+</p>
